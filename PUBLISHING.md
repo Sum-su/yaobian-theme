@@ -11,25 +11,40 @@
 
 ## 一、VS Code 商城
 
+> **建发布者和建 PAT 必须用同一个微软账号。** 两个页面各登录一次，很容易顺手用了不同的号；
+> 不一致的表现是发布时 `Invalid publisher` 或者 401，而且不容易往这上面想。
+
 ### 1. 建发布者
 
-1. 打开 <https://marketplace.visualstudio.com/manage>
+1. 打开 <https://marketplace.visualstudio.com/manage/createpublisher?managePageRedirect=true>
+   （或 <https://marketplace.visualstudio.com/manage> 登录后在左栏点 Create publisher）
 2. 用**微软账号**登录（没有就当场注册一个，免费）
-3. 第一次会让你 Create publisher：
-   - **ID 填 `tombliboo`**（要一字不差，全小写）
-   - Name / 显示名随便填（比如 `Yaobian`）
-4. 建完页面会跳回 Manage 列表
+3. 填两个字段：
+   - **Name**：显示名，随便填（比如 `Yaobian`）
+   - **ID**：⚠️ **它会跟着 Name 自动填，一定要手动改成 `tombliboo`**（一字不差，全小写）
+     —— ID 决定扩展的完整名字，**创建后不能改**；它必须和 `package.json` 里的 `publisher`
+     完全相同，否则 `vsce publish` 直接报 `Invalid publisher`。如果 ID 被别人占了，
+     回来告诉我，我改 `package.json` 重新打包（几分钟，不用将就）。
+4. 勾选同意 **Marketplace Publisher Agreement** → **Create**
 
 ### 2. 建 PAT（个人访问令牌）
 
 1. 打开 <https://dev.azure.com> → 右上角**用户设置**（小人图标）→ **Personal access tokens**
    （直达：<https://dev.azure.com/_usersSettings/tokens>）
+   - 如果提示你还没有组织，先 **Create an organization**（名字随便，免费）——第一次用
+     Azure DevOps 的个人账号基本都会撞上这一步，它跟发布者 ID 没有任何关系，随便起。
 2. **New Token**：
    - Name：`vsce`（随便）
    - **Organization：选 `All accessible organizations`** ← 这一项选错是最常见的 401 原因
    - Expiration：按需（最长一年；到期要重新建）
-   - Scopes：先点 **Custom defined** → 展开 **Marketplace** → 勾 **Manage**
+   - Scopes：先点 **Custom defined** → 点 **Show all scopes** → 滚到 **Marketplace** → 勾 **Manage**
 3. Create → **立刻复制** token（只显示这一次，离开页面就看不到了）
+
+> ⚠️ **这个令牌有硬期限**：官方文档写着「On December 1, 2026, global Personal Access Tokens
+> (PATs) in Azure DevOps are retired」（<https://code.visualstudio.com/api/working-with-extensions/publishing-extension>）。
+> 我们要的正是全局 PAT（Organization 选 All accessible 就是），所以它 **2026-12-01 起会失效**。
+> 官方给的替代方案（Entra ID + managed identity + service connection）是给 CI 流水线设计的，
+> 个人微软账号怎么发还没写清楚。先发出去没问题，到 11 月底我们再看当时的新说法。
 
 ### 3. 存 token 并发布
 
@@ -44,6 +59,8 @@ python publish.py --marketplace     # 发
 
 `publish.py` 把 token 放进子进程的环境变量（`VSCE_PAT`）而不是命令行——`--pat` 会出现在进程
 列表和日志里，这样不会。它也不回显 token。
+（vsce 确实认这个变量：`--pat` 的帮助原文是 `defaults to VSCE_PAT environment variable`，
+所以不会卡在等你手动输入 token 上。）
 
 发完之后：
 
