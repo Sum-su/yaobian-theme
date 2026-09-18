@@ -1,0 +1,10 @@
+# 全仓库锁 LF。
+#
+# 不是为了好看：gen.py 的「青瓷冻结向量」检查是**按字节**比
+# themes/qing-ci-*.json（公式生成）与 themes/qingci-*.json（手写基准）的
+# （39748 / 39749 字节）。本机 git 的 core.autocrlf=true 会把工作区签出成 CRLF，
+# 那样这两个文件一 clone 就都多出 1000+ 个字节，检查会在别人机器上假红。
+* text=auto eol=lf
+
+*.png binary
+*.vsix binary

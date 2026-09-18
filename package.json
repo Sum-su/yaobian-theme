@@ -1,0 +1,415 @@
+{
+  "name": "yaobian-theme",
+  "displayName": "窑变",
+  "description": "%description%",
+  "version": "0.3.0",
+  "publisher": "tombliboo",
+  "license": "MIT",
+  "author": {
+    "name": "Tombliboo",
+    "url": "https://github.com/Sum-su"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sum-su/yaobian-theme.git"
+  },
+  "homepage": "https://github.com/Sum-su/yaobian-theme#readme",
+  "bugs": {
+    "url": "https://github.com/Sum-su/yaobian-theme/issues"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#2C3635",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark theme",
+    "light theme",
+    "chinese style",
+    "celadon",
+    "yaobian",
+    "qingci",
+    "cherrycss",
+    "syntax highlighting",
+    "semantic highlighting",
+    "gallery",
+    "窑变",
+    "青瓷"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "青瓷（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/qing-ci-dark.json"
+      },
+      {
+        "label": "青瓷（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/qing-ci-light.json"
+      },
+      {
+        "label": "长安（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chang-an-dark.json"
+      },
+      {
+        "label": "长安（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/chang-an-light.json"
+      },
+      {
+        "label": "禅棕（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chan-zong-dark.json"
+      },
+      {
+        "label": "禅棕（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/chan-zong-light.json"
+      },
+      {
+        "label": "春梅（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chun-mei-dark.json"
+      },
+      {
+        "label": "春梅（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/chun-mei-light.json"
+      },
+      {
+        "label": "丹霞（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dan-xia-dark.json"
+      },
+      {
+        "label": "丹霞（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/dan-xia-light.json"
+      },
+      {
+        "label": "汉白玉（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/han-bai-yu-dark.json"
+      },
+      {
+        "label": "汉白玉（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/han-bai-yu-light.json"
+      },
+      {
+        "label": "湖光（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hu-guang-dark.json"
+      },
+      {
+        "label": "湖光（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/hu-guang-light.json"
+      },
+      {
+        "label": "金镶玉（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jin-xiang-yu-dark.json"
+      },
+      {
+        "label": "金镶玉（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/jin-xiang-yu-light.json"
+      },
+      {
+        "label": "流云（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/liu-yun-dark.json"
+      },
+      {
+        "label": "流云（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/liu-yun-light.json"
+      },
+      {
+        "label": "琵琶（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pi-pa-dark.json"
+      },
+      {
+        "label": "琵琶（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/pi-pa-light.json"
+      },
+      {
+        "label": "青花（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/qing-hua-dark.json"
+      },
+      {
+        "label": "青花（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/qing-hua-light.json"
+      },
+      {
+        "label": "青雾（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/qing-wu-dark.json"
+      },
+      {
+        "label": "青雾（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/qing-wu-light.json"
+      },
+      {
+        "label": "汝窑蓝（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ru-yao-lan-dark.json"
+      },
+      {
+        "label": "汝窑蓝（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/ru-yao-lan-light.json"
+      },
+      {
+        "label": "汝窑绿（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ru-yao-lv-dark.json"
+      },
+      {
+        "label": "汝窑绿（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/ru-yao-lv-light.json"
+      },
+      {
+        "label": "山水（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shan-shui-dark.json"
+      },
+      {
+        "label": "山水（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/shan-shui-light.json"
+      },
+      {
+        "label": "素宣（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/su-xuan-dark.json"
+      },
+      {
+        "label": "素宣（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/su-xuan-light.json"
+      },
+      {
+        "label": "天水（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tian-shui-dark.json"
+      },
+      {
+        "label": "天水（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/tian-shui-light.json"
+      },
+      {
+        "label": "宣纸（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/xuan-zhi-dark.json"
+      },
+      {
+        "label": "宣纸（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/xuan-zhi-light.json"
+      },
+      {
+        "label": "羊皮纸（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yang-pi-zhi-dark.json"
+      },
+      {
+        "label": "羊皮纸（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/yang-pi-zhi-light.json"
+      },
+      {
+        "label": "雁灰（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yan-hui-dark.json"
+      },
+      {
+        "label": "雁灰（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/yan-hui-light.json"
+      },
+      {
+        "label": "烟雨（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yan-yu-dark.json"
+      },
+      {
+        "label": "烟雨（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/yan-yu-light.json"
+      },
+      {
+        "label": "胭脂（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yan-zhi-dark.json"
+      },
+      {
+        "label": "胭脂（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/yan-zhi-light.json"
+      },
+      {
+        "label": "窑火（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yao-huo-dark.json"
+      },
+      {
+        "label": "窑火（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/yao-huo-light.json"
+      },
+      {
+        "label": "玉石（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yu-shi-dark.json"
+      },
+      {
+        "label": "玉石（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/yu-shi-light.json"
+      },
+      {
+        "label": "紫陶（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zi-tao-dark.json"
+      },
+      {
+        "label": "紫陶（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/zi-tao-light.json"
+      },
+      {
+        "label": "Claude（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-dark.json"
+      },
+      {
+        "label": "Claude（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/claude-light.json"
+      },
+      {
+        "label": "Dopamine（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dopamine-dark.json"
+      },
+      {
+        "label": "Dopamine（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/dopamine-light.json"
+      },
+      {
+        "label": "Dracula（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-dark.json"
+      },
+      {
+        "label": "Dracula（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/dracula-light.json"
+      },
+      {
+        "label": "歌蕾蒂娅·返航（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gladiia-dark.json"
+      },
+      {
+        "label": "歌蕾蒂娅·返航（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/gladiia-light.json"
+      },
+      {
+        "label": "莫奈（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mo-nai-dark.json"
+      },
+      {
+        "label": "莫奈（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/mo-nai-light.json"
+      },
+      {
+        "label": "奶茶（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nai-cha-dark.json"
+      },
+      {
+        "label": "奶茶（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/nai-cha-light.json"
+      },
+      {
+        "label": "Mint（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mint-dark.json"
+      },
+      {
+        "label": "Mint（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/mint-light.json"
+      },
+      {
+        "label": "Vitesse Soft（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vitesse-soft-dark.json"
+      },
+      {
+        "label": "Vitesse Soft（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/vitesse-soft-light.json"
+      },
+      {
+        "label": "暮山紫（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mu-shan-zi-dark.json"
+      },
+      {
+        "label": "暮山紫（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/mu-shan-zi-light.json"
+      },
+      {
+        "label": "Pulse（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pulse-interactive-dark.json"
+      },
+      {
+        "label": "Pulse（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/pulse-interactive-light.json"
+      },
+      {
+        "label": "Peppa（深）",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peppa-dark.json"
+      },
+      {
+        "label": "Peppa（浅）",
+        "uiTheme": "vs",
+        "path": "./themes/peppa-light.json"
+      }
+    ],
+    "configurationDefaults": {
+      "workbench.preferredDarkColorTheme": "青瓷（深）",
+      "workbench.preferredLightColorTheme": "青瓷（浅）"
+    }
+  }
+}

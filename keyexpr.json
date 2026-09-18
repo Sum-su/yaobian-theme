@@ -1,0 +1,2449 @@
+{
+ "table": {
+  "foreground": [
+   "ink",
+   "ink"
+  ],
+  "titleBar.activeForeground": [
+   "ink",
+   "ink"
+  ],
+  "commandCenter.activeForeground": [
+   "ink",
+   "ink"
+  ],
+  "activityBar.foreground": [
+   "ink",
+   "ink"
+  ],
+  "modernActivityBarItem.activeForeground": [
+   "ink",
+   "ink"
+  ],
+  "modernActivityBarItem.hoverForeground": [
+   "ink",
+   "ink"
+  ],
+  "sideBarTitle.foreground": [
+   "ink",
+   "ink"
+  ],
+  "editorGroup.dropIntoPromptForeground": [
+   "ink",
+   "ink"
+  ],
+  "tab.activeForeground": [
+   "ink",
+   "ink"
+  ],
+  "tab.selectedForeground": [
+   "ink",
+   "ink"
+  ],
+  "tab.hoverForeground": [
+   "ink",
+   "ink"
+  ],
+  "editor.foreground": [
+   "ink",
+   "ink"
+  ],
+  "editorWidget.foreground": [
+   "ink",
+   "ink"
+  ],
+  "editorHoverWidget.foreground": [
+   "ink",
+   "ink"
+  ],
+  "editorSuggestWidget.foreground": [
+   "ink",
+   "ink"
+  ],
+  "editorSuggestWidget.selectedForeground": [
+   "ink",
+   "ink"
+  ],
+  "editorSuggestWidget.selectedIconForeground": [
+   "ink",
+   "ink"
+  ],
+  "peekViewResult.fileForeground": [
+   "ink",
+   "ink"
+  ],
+  "peekViewResult.selectionForeground": [
+   "ink",
+   "ink"
+  ],
+  "peekViewTitleLabel.foreground": [
+   "ink",
+   "ink"
+  ],
+  "panelTitle.activeForeground": [
+   "ink",
+   "ink"
+  ],
+  "panelSectionHeader.foreground": [
+   "ink",
+   "ink"
+  ],
+  "terminal.foreground": [
+   "ink",
+   "ink"
+  ],
+  "list.activeSelectionForeground": [
+   "ink",
+   "ink"
+  ],
+  "list.activeSelectionIconForeground": [
+   "ink",
+   "ink"
+  ],
+  "list.inactiveSelectionForeground": [
+   "ink",
+   "ink"
+  ],
+  "list.focusForeground": [
+   "ink",
+   "ink"
+  ],
+  "list.hoverForeground": [
+   "ink",
+   "ink"
+  ],
+  "input.foreground": [
+   "ink",
+   "ink"
+  ],
+  "inputOption.activeForeground": [
+   "ink",
+   "ink"
+  ],
+  "dropdown.foreground": [
+   "ink",
+   "ink"
+  ],
+  "checkbox.foreground": [
+   "ink",
+   "ink"
+  ],
+  "button.secondaryForeground": [
+   "ink",
+   "ink"
+  ],
+  "menu.foreground": [
+   "ink",
+   "ink"
+  ],
+  "menu.selectionForeground": [
+   "ink",
+   "ink"
+  ],
+  "menubar.selectionForeground": [
+   "ink",
+   "ink"
+  ],
+  "quickInput.foreground": [
+   "ink",
+   "ink"
+  ],
+  "quickInputList.focusForeground": [
+   "ink",
+   "ink"
+  ],
+  "quickInputList.focusIconForeground": [
+   "ink",
+   "ink"
+  ],
+  "notifications.foreground": [
+   "ink",
+   "ink"
+  ],
+  "notificationCenterHeader.foreground": [
+   "ink",
+   "ink"
+  ],
+  "breadcrumb.focusForeground": [
+   "ink",
+   "ink"
+  ],
+  "breadcrumb.activeSelectionForeground": [
+   "ink",
+   "ink"
+  ],
+  "settings.headerForeground": [
+   "ink",
+   "ink"
+  ],
+  "debugView.stateLabelForeground": [
+   "ink",
+   "ink"
+  ],
+  "charts.foreground": [
+   "ink",
+   "ink"
+  ],
+  "inlineChat.foreground": [
+   "ink",
+   "ink"
+  ],
+  "agentsPanel.foreground": [
+   "ink",
+   "ink"
+  ],
+  "agentsChatInput.foreground": [
+   "ink",
+   "ink"
+  ],
+  "descriptionForeground": [
+   "ink2",
+   "ink2"
+  ],
+  "icon.foreground": [
+   "ink2",
+   "ink2"
+  ],
+  "commandCenter.foreground": [
+   "ink2",
+   "ink2"
+  ],
+  "sideBar.foreground": [
+   "ink2",
+   "ink2"
+  ],
+  "tab.unfocusedActiveForeground": [
+   "ink2",
+   "ink2"
+  ],
+  "editorBracketHighlight.foreground6": [
+   "ink2",
+   "ink2"
+  ],
+  "editorGutter.foldingControlForeground": [
+   "ink2",
+   "ink2"
+  ],
+  "editorInlayHint.typeForeground": [
+   "ink2",
+   "ink2"
+  ],
+  "peekViewResult.lineForeground": [
+   "ink2",
+   "ink2"
+  ],
+  "peekViewTitleDescription.foreground": [
+   "ink2",
+   "ink2"
+  ],
+  "keybindingLabel.foreground": [
+   "ink2",
+   "ink2"
+  ],
+  "gauge.foreground": [
+   "ink2",
+   "ink2"
+  ],
+  "disabledForeground": [
+   "ink2",
+   "ink3"
+  ],
+  "tab.unfocusedInactiveForeground": [
+   "ink2",
+   "ink3"
+  ],
+  "editorLineNumber.foreground": [
+   "ink2",
+   "ink3"
+  ],
+  "errorForeground": [
+   "err",
+   "err"
+  ],
+  "activityErrorBadge.background": [
+   "err",
+   "err"
+  ],
+  "editorBracketHighlight.unexpectedBracket.foreground": [
+   "err",
+   "err"
+  ],
+  "editorGutter.deletedBackground": [
+   "err",
+   "err"
+  ],
+  "editorError.foreground": [
+   "err",
+   "err"
+  ],
+  "editorMarkerNavigationError.background": [
+   "err",
+   "err"
+  ],
+  "minimap.errorHighlight": [
+   "err",
+   "err"
+  ],
+  "minimapGutter.deletedBackground": [
+   "err",
+   "err"
+  ],
+  "editorOverviewRuler.deletedForeground": [
+   "err",
+   "err"
+  ],
+  "editorOverviewRuler.errorForeground": [
+   "err",
+   "err"
+  ],
+  "debugExceptionWidget.border": [
+   "err",
+   "err"
+  ],
+  "list.errorForeground": [
+   "err",
+   "err"
+  ],
+  "list.invalidItemForeground": [
+   "err",
+   "err"
+  ],
+  "notificationsErrorIcon.foreground": [
+   "err",
+   "err"
+  ],
+  "gitDecoration.deletedResourceForeground": [
+   "err",
+   "err"
+  ],
+  "gitDecoration.stageDeletedResourceForeground": [
+   "err",
+   "err"
+  ],
+  "notebookStatusErrorIcon.foreground": [
+   "err",
+   "err"
+  ],
+  "testing.iconFailed": [
+   "err",
+   "err"
+  ],
+  "debugConsole.errorForeground": [
+   "err",
+   "err"
+  ],
+  "debugTokenExpression.error": [
+   "err",
+   "err"
+  ],
+  "problemsErrorIcon.foreground": [
+   "err",
+   "err"
+  ],
+  "focusBorder": [
+   "prim",
+   "prim"
+  ],
+  "sash.hoverBorder": [
+   "prim",
+   "prim"
+  ],
+  "progressBar.background": [
+   "prim",
+   "prim"
+  ],
+  "badge.background": [
+   "prim",
+   "prim"
+  ],
+  "commandCenter.activeBorder": [
+   "prim",
+   "prim"
+  ],
+  "activityBar.activeBorder": [
+   "prim",
+   "prim"
+  ],
+  "activityBar.activeFocusBorder": [
+   "prim",
+   "prim"
+  ],
+  "activityBarTop.activeBorder": [
+   "prim",
+   "prim"
+  ],
+  "activityBarBadge.background": [
+   "prim",
+   "prim"
+  ],
+  "editorGroup.dropIntoPromptBorder": [
+   "prim",
+   "prim"
+  ],
+  "tab.activeBorderTop": [
+   "prim",
+   "prim"
+  ],
+  "editorSuggestWidget.focusOutline": [
+   "prim",
+   "prim"
+  ],
+  "peekView.border": [
+   "prim",
+   "prim"
+  ],
+  "panelTitle.activeBorder": [
+   "prim",
+   "prim"
+  ],
+  "terminal.tab.activeBorder": [
+   "prim",
+   "prim"
+  ],
+  "list.focusOutline": [
+   "prim",
+   "prim"
+  ],
+  "list.focusAndSelectionOutline": [
+   "prim",
+   "prim"
+  ],
+  "inputOption.activeBorder": [
+   "prim",
+   "prim"
+  ],
+  "button.background": [
+   "prim",
+   "prim"
+  ],
+  "extensionButton.prominentBackground": [
+   "prim",
+   "prim"
+  ],
+  "menu.selectionBorder": [
+   "prim",
+   "prim"
+  ],
+  "statusBar.background": [
+   "prim",
+   "prim"
+  ],
+  "statusBar.border": [
+   "prim",
+   "prim"
+  ],
+  "notebook.cellInsertionIndicator": [
+   "prim",
+   "prim"
+  ],
+  "notebook.focusedCellBorder": [
+   "prim",
+   "prim"
+  ],
+  "notebook.focusedEditorBorder": [
+   "prim",
+   "prim"
+  ],
+  "testing.coverCountBadgeBackground": [
+   "prim",
+   "prim"
+  ],
+  "toolbar.hoverOutline": [
+   "prim",
+   "prim"
+  ],
+  "welcomePage.progress.foreground": [
+   "prim",
+   "prim"
+  ],
+  "inlineChat.border": [
+   "prim",
+   "prim"
+  ],
+  "chat.inputWorkingBorderColor1": [
+   "prim",
+   "prim"
+  ],
+  "agentsChatInput.focusBorder": [
+   "prim",
+   "prim"
+  ],
+  "agentsNewSessionButton.background": [
+   "prim",
+   "prim"
+  ],
+  "agentsBadge.background": [
+   "prim",
+   "prim"
+  ],
+  "agentsUnreadBadge.background": [
+   "prim",
+   "prim"
+  ],
+  "agentStatusIndicator.background": [
+   "prim",
+   "prim"
+  ],
+  "textBlockQuote.border": [
+   "prim",
+   "prim"
+  ],
+  "selection.background": [
+   "sel",
+   "sel"
+  ],
+  "editor.selectionBackground": [
+   "sel",
+   "sel"
+  ],
+  "minimap.selectionHighlight": [
+   "sel",
+   "sel"
+  ],
+  "editorOverviewRuler.selectionHighlightForeground": [
+   "sel",
+   "sel"
+  ],
+  "terminal.selectionBackground": [
+   "sel",
+   "sel"
+  ],
+  "window.activeBorder": [
+   "NONE",
+   "NONE"
+  ],
+  "window.inactiveBorder": [
+   "NONE",
+   "NONE"
+  ],
+  "scrollbar.shadow": [
+   "NONE",
+   "NONE"
+  ],
+  "editorGroupHeader.border": [
+   "NONE",
+   "NONE"
+  ],
+  "editorError.border": [
+   "NONE",
+   "NONE"
+  ],
+  "editorWarning.border": [
+   "NONE",
+   "NONE"
+  ],
+  "editorInfo.border": [
+   "NONE",
+   "NONE"
+  ],
+  "editorHint.border": [
+   "NONE",
+   "NONE"
+  ],
+  "editorGhostText.background": [
+   "NONE",
+   "NONE"
+  ],
+  "editorGhostText.border": [
+   "NONE",
+   "NONE"
+  ],
+  "editorInlayHint.typeBackground": [
+   "NONE",
+   "NONE"
+  ],
+  "editorInlayHint.parameterBackground": [
+   "NONE",
+   "NONE"
+  ],
+  "button.border": [
+   "NONE",
+   "NONE"
+  ],
+  "button.secondaryBorder": [
+   "NONE",
+   "NONE"
+  ],
+  "merge.border": [
+   "NONE",
+   "NONE"
+  ],
+  "agentsNewSessionButton.border": [
+   "NONE",
+   "NONE"
+  ],
+  "widget.border": [
+   "line",
+   "line"
+  ],
+  "titleBar.border": [
+   "line",
+   "line"
+  ],
+  "commandCenter.border": [
+   "line",
+   "line"
+  ],
+  "activityBar.border": [
+   "line",
+   "line"
+  ],
+  "modernActivityBar.border": [
+   "line",
+   "line"
+  ],
+  "sideBar.border": [
+   "line",
+   "line"
+  ],
+  "sideBarSectionHeader.border": [
+   "line",
+   "line"
+  ],
+  "editorGroup.border": [
+   "line",
+   "line"
+  ],
+  "editorGroupHeader.tabsBorder": [
+   "line",
+   "line"
+  ],
+  "tab.border": [
+   "line",
+   "line"
+  ],
+  "tab.unfocusedActiveBorderTop": [
+   "line",
+   "line"
+  ],
+  "tab.lastPinnedBorder": [
+   "line",
+   "line"
+  ],
+  "editorRuler.foreground": [
+   "line",
+   "line"
+  ],
+  "editorStickyScroll.border": [
+   "line",
+   "line"
+  ],
+  "sideBySideEditor.horizontalBorder": [
+   "line",
+   "line"
+  ],
+  "sideBySideEditor.verticalBorder": [
+   "line",
+   "line"
+  ],
+  "editorWidget.border": [
+   "line",
+   "line"
+  ],
+  "editorHoverWidget.border": [
+   "line",
+   "line"
+  ],
+  "editorSuggestWidget.border": [
+   "line",
+   "line"
+  ],
+  "panel.border": [
+   "line",
+   "line"
+  ],
+  "panelTitle.border": [
+   "line",
+   "line"
+  ],
+  "panelInput.border": [
+   "line",
+   "line"
+  ],
+  "panelSection.border": [
+   "line",
+   "line"
+  ],
+  "panelStickyScroll.border": [
+   "line",
+   "line"
+  ],
+  "terminal.border": [
+   "line",
+   "line"
+  ],
+  "input.border": [
+   "line",
+   "line"
+  ],
+  "dropdown.border": [
+   "line",
+   "line"
+  ],
+  "pickerGroup.border": [
+   "line",
+   "line"
+  ],
+  "menu.border": [
+   "line",
+   "line"
+  ],
+  "menu.separatorBackground": [
+   "line",
+   "line"
+  ],
+  "quickInput.border": [
+   "line",
+   "line"
+  ],
+  "notifications.border": [
+   "line",
+   "line"
+  ],
+  "notificationCenter.border": [
+   "line",
+   "line"
+  ],
+  "notificationToast.border": [
+   "line",
+   "line"
+  ],
+  "settings.dropdownBorder": [
+   "line",
+   "line"
+  ],
+  "settings.textInputBorder": [
+   "line",
+   "line"
+  ],
+  "settings.numberInputBorder": [
+   "line",
+   "line"
+  ],
+  "searchEditor.textInputBorder": [
+   "line",
+   "line"
+  ],
+  "diffEditor.diagonalFill": [
+   "line",
+   "line"
+  ],
+  "diffEditor.border": [
+   "line",
+   "line"
+  ],
+  "notebook.cellBorderColor": [
+   "line",
+   "line"
+  ],
+  "notebook.cellToolbarSeparator": [
+   "line",
+   "line"
+  ],
+  "notebook.outputContainerBorderColor": [
+   "line",
+   "line"
+  ],
+  "notebook.selectedCellBorder": [
+   "line",
+   "line"
+  ],
+  "gauge.border": [
+   "line",
+   "line"
+  ],
+  "welcomePage.tileBorder": [
+   "line",
+   "line"
+  ],
+  "agentsPanel.border": [
+   "line",
+   "line"
+  ],
+  "agentsBottomPanel.border": [
+   "line",
+   "line"
+  ],
+  "agentsCard.border": [
+   "line",
+   "line"
+  ],
+  "agentsChatInput.border": [
+   "line",
+   "line"
+  ],
+  "widget.shadow": [
+   "A(black,0x55)",
+   "A(ink,0x1F)"
+  ],
+  "sideBarStickyScroll.shadow": [
+   "A(black,0x55)",
+   "A(ink,0x1F)"
+  ],
+  "editorStickyScroll.shadow": [
+   "A(black,0x55)",
+   "A(ink,0x1F)"
+  ],
+  "listFilterWidget.shadow": [
+   "A(black,0x55)",
+   "A(ink,0x1F)"
+  ],
+  "inlineChat.shadow": [
+   "A(black,0x55)",
+   "A(ink,0x1F)"
+  ],
+  "scrollbarSlider.background": [
+   "A(grey4,0x80)",
+   "A(grey3,0x80)"
+  ],
+  "scrollbarSlider.hoverBackground": [
+   "A(ink3,0xB3)",
+   "A(grey2,0xB3)"
+  ],
+  "scrollbarSlider.activeBackground": [
+   "A(grey2,0xCC)",
+   "A(grey5,0xCC)"
+  ],
+  "badge.foreground": [
+   "bg",
+   "bg"
+  ],
+  "activityBarBadge.foreground": [
+   "bg",
+   "bg"
+  ],
+  "activityErrorBadge.foreground": [
+   "bg",
+   "bg"
+  ],
+  "activityWarningBadge.foreground": [
+   "bg",
+   "bg"
+  ],
+  "editorGroup.emptyBackground": [
+   "bg",
+   "bg"
+  ],
+  "tab.activeBackground": [
+   "bg",
+   "bg"
+  ],
+  "tab.activeBorder": [
+   "bg",
+   "bg"
+  ],
+  "tab.selectedBackground": [
+   "bg",
+   "bg"
+  ],
+  "editor.background": [
+   "bg",
+   "bg"
+  ],
+  "editorCursor.background": [
+   "bg",
+   "bg"
+  ],
+  "editorGutter.background": [
+   "bg",
+   "bg"
+  ],
+  "editorPane.background": [
+   "bg",
+   "bg"
+  ],
+  "minimap.background": [
+   "bg",
+   "bg"
+  ],
+  "editorOverviewRuler.border": [
+   "bg",
+   "bg"
+  ],
+  "peekViewResult.background": [
+   "bg",
+   "bg"
+  ],
+  "terminalCursor.background": [
+   "bg",
+   "bg"
+  ],
+  "inputValidation.errorForeground": [
+   "bg",
+   "bg"
+  ],
+  "inputValidation.warningForeground": [
+   "bg",
+   "bg"
+  ],
+  "inputValidation.infoForeground": [
+   "bg",
+   "bg"
+  ],
+  "button.foreground": [
+   "bg",
+   "bg"
+  ],
+  "extensionButton.prominentForeground": [
+   "bg",
+   "bg"
+  ],
+  "statusBar.foreground": [
+   "bg",
+   "bg"
+  ],
+  "statusBar.debuggingForeground": [
+   "bg",
+   "bg"
+  ],
+  "statusBar.focusBorder": [
+   "bg",
+   "bg"
+  ],
+  "statusBarItem.hoverForeground": [
+   "bg",
+   "bg"
+  ],
+  "statusBarItem.remoteForeground": [
+   "bg",
+   "bg"
+  ],
+  "statusBarItem.focusBorder": [
+   "bg",
+   "bg"
+  ],
+  "breadcrumb.background": [
+   "bg",
+   "bg"
+  ],
+  "notebook.editorBackground": [
+   "bg",
+   "bg"
+  ],
+  "notebook.cellEditorBackground": [
+   "bg",
+   "bg"
+  ],
+  "testing.coverCountBadgeForeground": [
+   "bg",
+   "bg"
+  ],
+  "debugView.exceptionLabelForeground": [
+   "bg",
+   "bg"
+  ],
+  "gauge.warningForeground": [
+   "bg",
+   "bg"
+  ],
+  "welcomePage.background": [
+   "bg",
+   "bg"
+  ],
+  "walkThrough.embeddedEditorBackground": [
+   "bg",
+   "bg"
+  ],
+  "agentsNewSessionButton.foreground": [
+   "bg",
+   "bg"
+  ],
+  "agentsBadge.foreground": [
+   "bg",
+   "bg"
+  ],
+  "agentsUnreadBadge.foreground": [
+   "bg",
+   "bg"
+  ],
+  "titleBar.activeBackground": [
+   "bg",
+   "pane"
+  ],
+  "titleBar.inactiveBackground": [
+   "bg",
+   "pane"
+  ],
+  "activityBar.background": [
+   "bg",
+   "pane"
+  ],
+  "panel.background": [
+   "bg",
+   "pane"
+  ],
+  "panelStickyScroll.background": [
+   "bg",
+   "pane"
+  ],
+  "terminal.background": [
+   "bg",
+   "pane"
+  ],
+  "terminalStickyScroll.background": [
+   "bg",
+   "pane"
+  ],
+  "titleBar.inactiveForeground": [
+   "ink3",
+   "ink3"
+  ],
+  "activityBar.inactiveForeground": [
+   "ink3",
+   "ink3"
+  ],
+  "panelTitle.inactiveForeground": [
+   "ink3",
+   "ink3"
+  ],
+  "input.placeholderForeground": [
+   "ink3",
+   "ink3"
+  ],
+  "breadcrumb.foreground": [
+   "ink3",
+   "ink3"
+  ],
+  "charts.lines": [
+   "ink3",
+   "ink3"
+  ],
+  "agentsChatInput.placeholderForeground": [
+   "ink3",
+   "ink3"
+  ],
+  "commandCenter.background": [
+   "pane",
+   "surf"
+  ],
+  "commandCenter.activeBackground": [
+   "surf",
+   "surf"
+  ],
+  "editorGroup.dropIntoPromptBackground": [
+   "surf",
+   "surf"
+  ],
+  "editorMarkerNavigation.background": [
+   "surf",
+   "surf"
+  ],
+  "editorCommentsWidget.replyInputBackground": [
+   "surf",
+   "surf"
+  ],
+  "editorWidget.background": [
+   "surf",
+   "surf"
+  ],
+  "editorHoverWidget.background": [
+   "surf",
+   "surf"
+  ],
+  "editorSuggestWidget.background": [
+   "surf",
+   "surf"
+  ],
+  "debugToolBar.background": [
+   "surf",
+   "surf"
+  ],
+  "terminalStickyScrollHover.background": [
+   "surf",
+   "surf"
+  ],
+  "menu.background": [
+   "surf",
+   "surf"
+  ],
+  "quickInput.background": [
+   "surf",
+   "surf"
+  ],
+  "notifications.background": [
+   "surf",
+   "surf"
+  ],
+  "breadcrumbPicker.background": [
+   "surf",
+   "surf"
+  ],
+  "welcomePage.tileHoverBackground": [
+   "surf",
+   "surf"
+  ],
+  "inlineChat.background": [
+   "surf",
+   "surf"
+  ],
+  "chat.requestBubbleBackground": [
+   "surf",
+   "surf"
+  ],
+  "activityBar.activeBackground": [
+   "sels",
+   "selx"
+  ],
+  "modernActivityBarItem.activeBackground": [
+   "sels",
+   "selx"
+  ],
+  "actionBar.toggledBackground": [
+   "sels",
+   "selx"
+  ],
+  "notebook.selectedCellBackground": [
+   "sels",
+   "selx"
+  ],
+  "activityWarningBadge.background": [
+   "st",
+   "st"
+  ],
+  "editorMultiCursor.secondary.foreground": [
+   "st",
+   "st"
+  ],
+  "editorLightBulb.foreground": [
+   "st",
+   "st"
+  ],
+  "editorBracketHighlight.foreground3": [
+   "st",
+   "st"
+  ],
+  "editorWarning.foreground": [
+   "st",
+   "st"
+  ],
+  "editorMarkerNavigationWarning.background": [
+   "st",
+   "st"
+  ],
+  "minimap.warningHighlight": [
+   "st",
+   "st"
+  ],
+  "editorOverviewRuler.warningForeground": [
+   "st",
+   "st"
+  ],
+  "list.warningForeground": [
+   "st",
+   "st"
+  ],
+  "notificationsWarningIcon.foreground": [
+   "st",
+   "st"
+  ],
+  "gitDecoration.modifiedResourceForeground": [
+   "st",
+   "st"
+  ],
+  "diffEditor.move.border": [
+   "st",
+   "st"
+  ],
+  "testing.iconQueued": [
+   "st",
+   "st"
+  ],
+  "debugIcon.breakpointCurrentStackframeForeground": [
+   "st",
+   "st"
+  ],
+  "debugConsole.warningForeground": [
+   "st",
+   "st"
+  ],
+  "debugTokenExpression.string": [
+   "st",
+   "st"
+  ],
+  "charts.yellow": [
+   "st",
+   "st"
+  ],
+  "problemsWarningIcon.foreground": [
+   "st",
+   "st"
+  ],
+  "gauge.warningBackground": [
+   "st",
+   "st"
+  ],
+  "chat.editedFileForeground": [
+   "st",
+   "st"
+  ],
+  "textPreformat.foreground": [
+   "st",
+   "st"
+  ],
+  "modernActivityBarItem.hoverBackground": [
+   "A(ink,0x14)",
+   "A(ink,0x0F)"
+  ],
+  "editorIndentGuide.background": [
+   "A(ink,0x14)",
+   "A(ink,0x0F)"
+  ],
+  "editorIndentGuide.background1": [
+   "A(ink,0x14)",
+   "A(ink,0x0F)"
+  ],
+  "list.hoverBackground": [
+   "A(ink,0x14)",
+   "A(ink,0x0F)"
+  ],
+  "inputOption.hoverBackground": [
+   "A(ink,0x14)",
+   "A(ink,0x0F)"
+  ],
+  "quickInputList.hoverBackground": [
+   "A(ink,0x14)",
+   "A(ink,0x0F)"
+  ],
+  "toolbar.activeBackground": [
+   "A(ink,0x14)",
+   "A(ink,0x0F)"
+  ],
+  "textCodeBlock.background": [
+   "A(ink,0x14)",
+   "A(ink,0x0F)"
+  ],
+  "textPreformat.background": [
+   "A(ink,0x14)",
+   "A(ink,0x0F)"
+  ],
+  "sideBar.background": [
+   "pane",
+   "pane"
+  ],
+  "sideBarSectionHeader.background": [
+   "pane",
+   "pane"
+  ],
+  "editorStickyScroll.background": [
+   "pane",
+   "pane"
+  ],
+  "editorHoverWidget.statusBarBackground": [
+   "pane",
+   "pane"
+  ],
+  "peekViewEditor.background": [
+   "pane",
+   "pane"
+  ],
+  "peekViewTitle.background": [
+   "pane",
+   "pane"
+  ],
+  "quickInputTitle.background": [
+   "pane",
+   "pane"
+  ],
+  "notificationCenterHeader.background": [
+   "pane",
+   "pane"
+  ],
+  "diffEditor.unchangedRegionBackground": [
+   "pane",
+   "pane"
+  ],
+  "notebook.outputContainerBackgroundColor": [
+   "pane",
+   "pane"
+  ],
+  "notebook.focusedCellBackground": [
+   "pane",
+   "pane"
+  ],
+  "welcomePage.tileBackground": [
+   "pane",
+   "pane"
+  ],
+  "agents.background": [
+   "pane",
+   "pane"
+  ],
+  "agentsPanel.background": [
+   "pane",
+   "pane"
+  ],
+  "textBlockQuote.background": [
+   "pane",
+   "pane"
+  ],
+  "sideBar.dropBackground": [
+   "sels",
+   "sels"
+  ],
+  "editorGroup.dropBackground": [
+   "sels",
+   "sels"
+  ],
+  "editor.selectionHighlightBackground": [
+   "sels",
+   "sels"
+  ],
+  "editor.inactiveSelectionBackground": [
+   "sels",
+   "sels"
+  ],
+  "editor.wordHighlightStrongBackground": [
+   "sels",
+   "sels"
+  ],
+  "editor.hoverHighlightBackground": [
+   "sels",
+   "sels"
+  ],
+  "editorBracketMatch.background": [
+   "sels",
+   "sels"
+  ],
+  "editorStickyScrollHover.background": [
+   "sels",
+   "sels"
+  ],
+  "editorCommentsWidget.rangeActiveBackground": [
+   "sels",
+   "sels"
+  ],
+  "terminal.inactiveSelectionBackground": [
+   "sels",
+   "sels"
+  ],
+  "list.inactiveSelectionBackground": [
+   "sels",
+   "sels"
+  ],
+  "list.inactiveFocusBackground": [
+   "sels",
+   "sels"
+  ],
+  "list.dropBackground": [
+   "sels",
+   "sels"
+  ],
+  "notebook.symbolHighlightBackground": [
+   "sels",
+   "sels"
+  ],
+  "sideBarSectionHeader.foreground": [
+   "pale",
+   "ink"
+  ],
+  "debugTokenExpression.name": [
+   "pale",
+   "ink"
+  ],
+  "editorGroupHeader.tabsBackground": [
+   "tab",
+   "tab"
+  ],
+  "editorGroupHeader.noTabsBackground": [
+   "tab",
+   "tab"
+  ],
+  "tab.inactiveBackground": [
+   "tab",
+   "tab"
+  ],
+  "tab.unfocusedInactiveBackground": [
+   "tab",
+   "tab"
+  ],
+  "tab.selectedBorderTop": [
+   "azure",
+   "jade"
+  ],
+  "editorGutter.modifiedBackground": [
+   "azure",
+   "jade"
+  ],
+  "minimapGutter.modifiedBackground": [
+   "azure",
+   "jade"
+  ],
+  "editorOverviewRuler.modifiedForeground": [
+   "azure",
+   "jade"
+  ],
+  "tab.inactiveForeground": [
+   "ink3",
+   "ink2"
+  ],
+  "tab.hoverBackground": [
+   "tabHover",
+   "surf"
+  ],
+  "tab.unfocusedHoverBackground": [
+   "tabHover",
+   "surf"
+  ],
+  "tab.unfocusedActiveBackground": [
+   "pane",
+   "bg"
+  ],
+  "tab.unfocusedActiveBorder": [
+   "pane",
+   "bg"
+  ],
+  "editor.lineHighlightBackground": [
+   "A(ink,0x0F)",
+   "A(ink,0x0A)"
+  ],
+  "editor.wordHighlightBackground": [
+   "A(ink,0x1A)",
+   "A(ink,0x14)"
+  ],
+  "editor.findMatchBackground": [
+   "A(nu,0x66)",
+   "A(nuDk,0x5A)"
+  ],
+  "terminal.findMatchBackground": [
+   "A(nu,0x66)",
+   "A(nuDk,0x5A)"
+  ],
+  "searchEditor.findMatchBackground": [
+   "A(nu,0x66)",
+   "A(nuDk,0x5A)"
+  ],
+  "editor.findMatchHighlightBackground": [
+   "A(nu,0x33)",
+   "A(nuDk,0x30)"
+  ],
+  "list.filterMatchBackground": [
+   "A(nu,0x33)",
+   "A(nuDk,0x30)"
+  ],
+  "editor.findRangeHighlightBackground": [
+   "A(ink,0x14)",
+   "A(ink,0x0D)"
+  ],
+  "editor.rangeHighlightBackground": [
+   "A(ink,0x0D)",
+   "A(ink,0x08)"
+  ],
+  "notebook.cellHoverBackground": [
+   "A(ink,0x0D)",
+   "A(ink,0x08)"
+  ],
+  "editorWhitespace.foreground": [
+   "A(ink,0x1F)",
+   "A(ink,0x1A)"
+  ],
+  "tree.indentGuidesStroke": [
+   "A(ink,0x1F)",
+   "A(ink,0x1A)"
+  ],
+  "editorLineNumber.activeForeground": [
+   "ink2",
+   "ink"
+  ],
+  "editorCursor.foreground": [
+   "prim",
+   "posLo"
+  ],
+  "editorMultiCursor.primary.foreground": [
+   "prim",
+   "posLo"
+  ],
+  "terminalCursor.foreground": [
+   "prim",
+   "posLo"
+  ],
+  "editorIndentGuide.activeBackground": [
+   "A(prim,0x66)",
+   "A(prim,0x80)"
+  ],
+  "editorIndentGuide.activeBackground1": [
+   "A(prim,0x66)",
+   "A(prim,0x80)"
+  ],
+  "editorCodeLens.foreground": [
+   "cm",
+   "cm"
+  ],
+  "editorGutter.commentRangeForeground": [
+   "cm",
+   "cm"
+  ],
+  "editorInlayHint.foreground": [
+   "cm",
+   "cm"
+  ],
+  "editorInlayHint.parameterForeground": [
+   "cm",
+   "cm"
+  ],
+  "editorOverviewRuler.bracketMatchForeground": [
+   "cm",
+   "cm"
+  ],
+  "editorSuggestWidgetStatus.foreground": [
+   "cm",
+   "cm"
+  ],
+  "testing.message.info.decorationForeground": [
+   "cm",
+   "cm"
+  ],
+  "editorLink.activeForeground": [
+   "acc",
+   "acc"
+  ],
+  "editorSuggestWidget.highlightForeground": [
+   "acc",
+   "acc"
+  ],
+  "list.highlightForeground": [
+   "acc",
+   "acc"
+  ],
+  "pickerGroup.foreground": [
+   "acc",
+   "acc"
+  ],
+  "quickInputList.focusHighlightForeground": [
+   "acc",
+   "acc"
+  ],
+  "notificationLink.foreground": [
+   "acc",
+   "acc"
+  ],
+  "debugIcon.stepOverForeground": [
+   "acc",
+   "acc"
+  ],
+  "debugIcon.stepIntoForeground": [
+   "acc",
+   "acc"
+  ],
+  "debugIcon.stepOutForeground": [
+   "acc",
+   "acc"
+  ],
+  "debugIcon.stepBackForeground": [
+   "acc",
+   "acc"
+  ],
+  "debugConsole.sourceForeground": [
+   "acc",
+   "acc"
+  ],
+  "debugConsoleInputIcon.foreground": [
+   "acc",
+   "acc"
+  ],
+  "chat.slashCommandForeground": [
+   "acc",
+   "acc"
+  ],
+  "chat.thinkingShimmer": [
+   "acc",
+   "acc"
+  ],
+  "chat.inputWorkingBorderColor2": [
+   "acc",
+   "acc"
+  ],
+  "textLink.foreground": [
+   "acc",
+   "acc"
+  ],
+  "editorLightBulbAutoFix.foreground": [
+   "prim",
+   "acc"
+  ],
+  "editorBracketMatch.border": [
+   "prim",
+   "posMid"
+  ],
+  "editorGutter.addedBackground": [
+   "prim",
+   "posMid"
+  ],
+  "minimapGutter.addedBackground": [
+   "prim",
+   "posMid"
+  ],
+  "editorOverviewRuler.addedForeground": [
+   "prim",
+   "posMid"
+  ],
+  "gitDecoration.addedResourceForeground": [
+   "prim",
+   "posMid"
+  ],
+  "gitDecoration.stageModifiedResourceForeground": [
+   "prim",
+   "posMid"
+  ],
+  "notebookStatusSuccessIcon.foreground": [
+   "prim",
+   "posMid"
+  ],
+  "testing.iconPassed": [
+   "prim",
+   "posMid"
+  ],
+  "testing.runAction": [
+   "prim",
+   "posMid"
+  ],
+  "debugIcon.breakpointStackframeForeground": [
+   "prim",
+   "posMid"
+  ],
+  "debugIcon.startForeground": [
+   "prim",
+   "posMid"
+  ],
+  "debugIcon.restartForeground": [
+   "prim",
+   "posMid"
+  ],
+  "debugIcon.continueForeground": [
+   "prim",
+   "posMid"
+  ],
+  "charts.green": [
+   "prim",
+   "posMid"
+  ],
+  "ports.iconRunningProcessForeground": [
+   "prim",
+   "posMid"
+  ],
+  "editorBracketHighlight.foreground1": [
+   "kw",
+   "acc"
+  ],
+  "editorHint.foreground": [
+   "kw",
+   "acc"
+  ],
+  "editorBracketHighlight.foreground2": [
+   "ty",
+   "ty"
+  ],
+  "editorInfo.foreground": [
+   "ty",
+   "ty"
+  ],
+  "editorMarkerNavigationInfo.background": [
+   "ty",
+   "ty"
+  ],
+  "minimap.infoHighlight": [
+   "ty",
+   "ty"
+  ],
+  "editorOverviewRuler.infoForeground": [
+   "ty",
+   "ty"
+  ],
+  "notificationsInfoIcon.foreground": [
+   "ty",
+   "ty"
+  ],
+  "notebookStatusRunningIcon.foreground": [
+   "ty",
+   "ty"
+  ],
+  "debugIcon.pauseForeground": [
+   "ty",
+   "ty"
+  ],
+  "debugConsole.infoForeground": [
+   "ty",
+   "ty"
+  ],
+  "debugTokenExpression.type": [
+   "ty",
+   "ty"
+  ],
+  "charts.blue": [
+   "ty",
+   "ty"
+  ],
+  "problemsInfoIcon.foreground": [
+   "ty",
+   "ty"
+  ],
+  "editorBracketHighlight.foreground4": [
+   "nu",
+   "nu"
+  ],
+  "statusBar.debuggingBackground": [
+   "nu",
+   "nu"
+  ],
+  "diffEditor.moveActive.border": [
+   "nu",
+   "nu"
+  ],
+  "debugTokenExpression.value": [
+   "nu",
+   "nu"
+  ],
+  "debugTokenExpression.number": [
+   "nu",
+   "nu"
+  ],
+  "debugTokenExpression.boolean": [
+   "nu",
+   "nu"
+  ],
+  "charts.orange": [
+   "nu",
+   "nu"
+  ],
+  "editorBracketHighlight.foreground5": [
+   "pl",
+   "pl"
+  ],
+  "gitDecoration.conflictingResourceForeground": [
+   "pl",
+   "pl"
+  ],
+  "charts.purple": [
+   "pl",
+   "pl"
+  ],
+  "editorBracketPairGuide.background1": [
+   "A(ink,0x12)",
+   "A(ink,0x0D)"
+  ],
+  "editorBracketPairGuide.background2": [
+   "A(ink,0x12)",
+   "A(ink,0x0D)"
+  ],
+  "editorBracketPairGuide.background3": [
+   "A(ink,0x12)",
+   "A(ink,0x0D)"
+  ],
+  "editorBracketPairGuide.background4": [
+   "A(ink,0x12)",
+   "A(ink,0x0D)"
+  ],
+  "editorBracketPairGuide.background5": [
+   "A(ink,0x12)",
+   "A(ink,0x0D)"
+  ],
+  "editorBracketPairGuide.background6": [
+   "A(ink,0x12)",
+   "A(ink,0x0D)"
+  ],
+  "editorBracketPairGuide.activeBackground1": [
+   "A(kw,0x66)",
+   "A(acc,0x80)"
+  ],
+  "editorBracketPairGuide.activeBackground2": [
+   "A(ty,0x66)",
+   "A(ty,0x80)"
+  ],
+  "editorBracketPairGuide.activeBackground3": [
+   "A(st,0x66)",
+   "A(st,0x80)"
+  ],
+  "editorBracketPairGuide.activeBackground4": [
+   "A(nu,0x66)",
+   "A(nu,0x80)"
+  ],
+  "editorBracketPairGuide.activeBackground5": [
+   "A(pl,0x66)",
+   "A(pl,0x80)"
+  ],
+  "editorBracketPairGuide.activeBackground6": [
+   "A(ink2,0x66)",
+   "A(ink2,0x80)"
+  ],
+  "editorUnnecessaryCode.border": [
+   "A(ink,0x33)",
+   "A(inkDeep,0x26)"
+  ],
+  "editorUnnecessaryCode.opacity": [
+   "A(bg,0xAA)",
+   "A(bg,0xC0)"
+  ],
+  "editorGhostText.foreground": [
+   "cm",
+   "ink3"
+  ],
+  "list.deemphasizedForeground": [
+   "cm",
+   "ink3"
+  ],
+  "gitDecoration.submoduleResourceForeground": [
+   "cm",
+   "ink3"
+  ],
+  "git.blame.editorDecorationForeground": [
+   "cm",
+   "ink3"
+  ],
+  "testing.iconUnset": [
+   "cm",
+   "ink3"
+  ],
+  "testing.iconSkipped": [
+   "cm",
+   "ink3"
+  ],
+  "debugIcon.breakpointUnverifiedForeground": [
+   "cm",
+   "ink3"
+  ],
+  "editorInlayHint.background": [
+   "selx",
+   "selx"
+  ],
+  "editorCommentsWidget.rangeBackground": [
+   "selx",
+   "selx"
+  ],
+  "diffEditor.insertedLineBackground": [
+   "selx",
+   "selx"
+  ],
+  "diffEditorGutter.insertedLineBackground": [
+   "selx",
+   "selx"
+  ],
+  "agentsGradient.tintColor": [
+   "selx",
+   "selx"
+  ],
+  "editorCommentsWidget.resolvedBorder": [
+   "A(prim,0x99)",
+   "A(prim,0x99)"
+  ],
+  "editorCommentsWidget.unresolvedBorder": [
+   "A(st,0x99)",
+   "A(st,0x99)"
+  ],
+  "minimap.findMatchHighlight": [
+   "A(nu,0x80)",
+   "A(nuDk,0x80)"
+  ],
+  "minimapSlider.background": [
+   "A(ink,0x1A)",
+   "A(ink,0x13)"
+  ],
+  "menubar.selectionBackground": [
+   "A(ink,0x1A)",
+   "A(ink,0x13)"
+  ],
+  "toolbar.hoverBackground": [
+   "A(ink,0x1A)",
+   "A(ink,0x13)"
+  ],
+  "minimapSlider.hoverBackground": [
+   "A(ink,0x29)",
+   "A(ink,0x26)"
+  ],
+  "minimapSlider.activeBackground": [
+   "selm",
+   "selm"
+  ],
+  "editorSuggestWidget.selectedBackground": [
+   "selm",
+   "selm"
+  ],
+  "peekViewResult.selectionBackground": [
+   "selm",
+   "selm"
+  ],
+  "list.activeSelectionBackground": [
+   "selm",
+   "selm"
+  ],
+  "list.focusBackground": [
+   "selm",
+   "selm"
+  ],
+  "inputOption.activeBackground": [
+   "selm",
+   "selm"
+  ],
+  "menu.selectionBackground": [
+   "selm",
+   "selm"
+  ],
+  "quickInputList.focusBackground": [
+   "selm",
+   "selm"
+  ],
+  "debugView.stateLabelBackground": [
+   "selm",
+   "selm"
+  ],
+  "debugView.valueChangedHighlight": [
+   "selm",
+   "selm"
+  ],
+  "editorOverviewRuler.findMatchForeground": [
+   "A(nu,0x99)",
+   "A(nuDk,0x99)"
+  ],
+  "editorOverviewRuler.rangeHighlightForeground": [
+   "A(prim,0x99)",
+   "A(prim,0x99)"
+  ],
+  "editorOverviewRuler.currentContentForeground": [
+   "A(prim,0x99)",
+   "A(prim,0x99)"
+  ],
+  "editorOverviewRuler.wordHighlightForeground": [
+   "A(ink,0x66)",
+   "A(ink,0x66)"
+  ],
+  "editorOverviewRuler.wordHighlightStrongForeground": [
+   "A(prim,0x99)",
+   "A(prim,0x80)"
+  ],
+  "editorOverviewRuler.incomingContentForeground": [
+   "A(ty,0x99)",
+   "A(ty,0x99)"
+  ],
+  "editorOverviewRuler.commonContentForeground": [
+   "A(line,0xB3)",
+   "A(grey6,0xB3)"
+  ],
+  "debugExceptionWidget.background": [
+   "A(err,0x26)",
+   "A(err,0x1F)"
+  ],
+  "peekViewEditor.matchHighlightBackground": [
+   "A(nu,0x4D)",
+   "A(nuDk,0x4D)"
+  ],
+  "peekViewResult.matchHighlightBackground": [
+   "A(nu,0x4D)",
+   "A(nuDk,0x4D)"
+  ],
+  "panelSectionHeader.background": [
+   "pane",
+   "tab"
+  ],
+  "terminal.findMatchBorder": [
+   "nu",
+   "nuDk"
+  ],
+  "list.filterMatchBorder": [
+   "nu",
+   "nuDk"
+  ],
+  "settings.modifiedItemIndicator": [
+   "nu",
+   "nuDk"
+  ],
+  "searchEditor.findMatchBorder": [
+   "nu",
+   "nuDk"
+  ],
+  "terminal.ansiBlack": [
+   "line",
+   "ink"
+  ],
+  "terminal.ansiRed": [
+   "errSoft",
+   "errDeep"
+  ],
+  "terminal.ansiGreen": [
+   "prim",
+   "posDeep"
+  ],
+  "terminal.ansiYellow": [
+   "st",
+   "warnDeep"
+  ],
+  "terminal.ansiBlue": [
+   "ty",
+   "ty"
+  ],
+  "terminal.ansiMagenta": [
+   "pl",
+   "pl"
+  ],
+  "terminal.ansiCyan": [
+   "acc",
+   "posLo"
+  ],
+  "terminal.ansiWhite": [
+   "ctrl",
+   "cm"
+  ],
+  "terminal.ansiBrightBlack": [
+   "ink2Dk",
+   "ink2"
+  ],
+  "terminal.ansiBrightRed": [
+   "err",
+   "errHi"
+  ],
+  "terminal.ansiBrightGreen": [
+   "acc",
+   "posMid"
+  ],
+  "terminal.ansiBrightYellow": [
+   "warnHi",
+   "warn"
+  ],
+  "terminal.ansiBrightBlue": [
+   "infoHi",
+   "infoDeep"
+  ],
+  "terminal.ansiBrightMagenta": [
+   "plHi",
+   "plDeep"
+  ],
+  "terminal.ansiBrightCyan": [
+   "acc2",
+   "posCyan"
+  ],
+  "terminal.ansiBrightWhite": [
+   "ink",
+   "grey7"
+  ],
+  "list.inactiveFocusOutline": [
+   "A(prim,0x80)",
+   "A(prim,0x80)"
+  ],
+  "notebook.inactiveSelectedCellBorder": [
+   "A(prim,0x80)",
+   "A(prim,0x80)"
+  ],
+  "list.focusHighlightForeground": [
+   "acc2",
+   "acc"
+  ],
+  "input.background": [
+   "bg",
+   "ctrl"
+  ],
+  "checkbox.background": [
+   "bg",
+   "ctrl"
+  ],
+  "settings.dropdownBackground": [
+   "bg",
+   "ctrl"
+  ],
+  "inputValidation.errorBackground": [
+   "err",
+   "errPale"
+  ],
+  "inputValidation.errorBorder": [
+   "errBrown",
+   "errDeep"
+  ],
+  "inputValidation.warningBackground": [
+   "st",
+   "warnPale"
+  ],
+  "inputValidation.warningBorder": [
+   "warn",
+   "st"
+  ],
+  "inputValidation.infoBackground": [
+   "ty",
+   "infoPale"
+  ],
+  "inputValidation.infoBorder": [
+   "info",
+   "ty"
+  ],
+  "dropdown.background": [
+   "surf",
+   "ctrl"
+  ],
+  "dropdown.listBackground": [
+   "surf",
+   "ctrl"
+  ],
+  "checkbox.border": [
+   "line",
+   "grey6"
+  ],
+  "button.hoverBackground": [
+   "azure",
+   "posHi"
+  ],
+  "extensionButton.prominentHoverBackground": [
+   "azure",
+   "posHi"
+  ],
+  "agentsNewSessionButton.hoverBackground": [
+   "azure",
+   "posHi"
+  ],
+  "button.secondaryBackground": [
+   "line",
+   "q4"
+  ],
+  "button.secondaryHoverBackground": [
+   "q4",
+   "grey6"
+  ],
+  "statusBar.noFolderBackground": [
+   "ink2",
+   "grey2"
+  ],
+  "statusBar.noFolderForeground": [
+   "ink",
+   "bg"
+  ],
+  "gauge.errorForeground": [
+   "ink",
+   "bg"
+  ],
+  "statusBarItem.hoverBackground": [
+   "A(bg,0x29)",
+   "A(ink,0x24)"
+  ],
+  "statusBarItem.compactHoverBackground": [
+   "A(bg,0x29)",
+   "A(ink,0x24)"
+  ],
+  "statusBarItem.activeBackground": [
+   "A(bg,0x3D)",
+   "A(ink,0x33)"
+  ],
+  "statusBarItem.prominentBackground": [
+   "A(bg,0x4D)",
+   "A(ink,0x4D)"
+  ],
+  "statusBarItem.prominentForeground": [
+   "ink",
+   "inkDk"
+  ],
+  "statusBarItem.prominentHoverForeground": [
+   "ink",
+   "inkDk"
+  ],
+  "statusBarItem.prominentHoverBackground": [
+   "A(bg,0x66)",
+   "A(ink,0x66)"
+  ],
+  "statusBarItem.remoteBackground": [
+   "azure",
+   "azure"
+  ],
+  "statusBarItem.errorBackground": [
+   "errSoft",
+   "err"
+  ],
+  "gitDecoration.renamedResourceForeground": [
+   "jade",
+   "jade"
+  ],
+  "gitDecoration.untrackedResourceForeground": [
+   "jade",
+   "jade"
+  ],
+  "gitDecoration.ignoredResourceForeground": [
+   "ink2Dk",
+   "grey1"
+  ],
+  "diffEditor.insertedTextBackground": [
+   "A(prim,0x29)",
+   "A(prim,0x26)"
+  ],
+  "diffEditor.removedTextBackground": [
+   "A(errSoft,0x29)",
+   "A(errSoft,0x26)"
+  ],
+  "diffEditor.removedLineBackground": [
+   "A(errSoft,0x1F)",
+   "A(errSoft,0x1A)"
+  ],
+  "diffEditorGutter.removedLineBackground": [
+   "A(errSoft,0x1F)",
+   "A(errSoft,0x1A)"
+  ],
+  "diffEditorOverview.insertedForeground": [
+   "prim",
+   "posMid"
+  ],
+  "diffEditorOverview.removedForeground": [
+   "errSoft",
+   "err"
+  ],
+  "debugIcon.breakpointForeground": [
+   "errSoft",
+   "err"
+  ],
+  "debugIcon.stopForeground": [
+   "errSoft",
+   "err"
+  ],
+  "debugIcon.disconnectForeground": [
+   "errSoft",
+   "err"
+  ],
+  "debugView.exceptionLabelBackground": [
+   "errSoft",
+   "err"
+  ],
+  "charts.red": [
+   "errSoft",
+   "err"
+  ],
+  "gauge.errorBackground": [
+   "errSoft",
+   "err"
+  ],
+  "merge.currentHeaderBackground": [
+   "A(prim,0x26)",
+   "A(prim,0x26)"
+  ],
+  "merge.currentContentBackground": [
+   "selx",
+   "A(prim,0x1A)"
+  ],
+  "merge.incomingHeaderBackground": [
+   "A(ty,0x26)",
+   "A(tyDk,0x26)"
+  ],
+  "merge.incomingContentBackground": [
+   "selx",
+   "A(tyDk,0x1A)"
+  ],
+  "merge.commonHeaderBackground": [
+   "A(line,0x26)",
+   "A(line,0x3D)"
+  ],
+  "merge.commonContentBackground": [
+   "A(line,0x14)",
+   "A(line,0x26)"
+  ],
+  "notebook.cellStatusBarItemHoverBackground": [
+   "A(ink,0x1F)",
+   "A(ink,0x13)"
+  ],
+  "debugIcon.breakpointDisabledForeground": [
+   "cm",
+   "grey1"
+  ],
+  "gauge.background": [
+   "A(ink,0x1F)",
+   "A(ink,0x14)"
+  ],
+  "textSeparator.foreground": [
+   "A(ink,0x1F)",
+   "A(ink,0x14)"
+  ],
+  "inlineChatDiff.inserted": [
+   "A(prim,0x33)",
+   "A(prim,0x26)"
+  ],
+  "chat.slashCommandBackground": [
+   "A(prim,0x33)",
+   "A(prim,0x26)"
+  ],
+  "inlineChatDiff.removed": [
+   "A(errSoft,0x33)",
+   "A(errSoft,0x26)"
+  ],
+  "chat.requestBubbleHoverBackground": [
+   "line",
+   "pane"
+  ],
+  "chat.inputWorkingBorderColor3": [
+   "acc2",
+   "acc2"
+  ],
+  "textLink.activeForeground": [
+   "acc2",
+   "acc2"
+  ],
+  "agentsChatInput.background": [
+   "pane",
+   "ctrl"
+  ]
+ },
+ "new_roles": {
+  "black": {
+   "D": "#000000"
+  },
+  "grey4": {
+   "D": "#5A6B68"
+  },
+  "grey3": {
+   "L": "#B9C9C4"
+  },
+  "grey2": {
+   "L": "#8FA9A2",
+   "D": "#8FA9A2"
+  },
+  "grey5": {
+   "L": "#7E9A93"
+  },
+  "tabHover": {
+   "D": "#384443"
+  },
+  "nuDk": {
+   "L": "#C79A7E",
+   "D": "#C79A7E"
+  },
+  "posLo": {
+   "L": "#2F7F6C"
+  },
+  "posMid": {
+   "L": "#4E8F7C"
+  },
+  "inkDeep": {
+   "L": "#2C3633"
+  },
+  "grey6": {
+   "L": "#C3D1CD"
+  },
+  "errSoft": {
+   "D": "#C0796A",
+   "L": "#C0796A"
+  },
+  "errDeep": {
+   "L": "#A8433A"
+  },
+  "posDeep": {
+   "L": "#357F6A"
+  },
+  "warnDeep": {
+   "L": "#8A6E1F"
+  },
+  "ink2Dk": {
+   "D": "#5F736D"
+  },
+  "errHi": {
+   "L": "#C0564A"
+  },
+  "warnHi": {
+   "D": "#D8CFA9"
+  },
+  "warn": {
+   "L": "#A88A2E",
+   "D": "#A88A2E"
+  },
+  "infoHi": {
+   "D": "#AECFDD"
+  },
+  "infoDeep": {
+   "L": "#3A7E93"
+  },
+  "plHi": {
+   "D": "#CDB3C0"
+  },
+  "plDeep": {
+   "L": "#A06E86"
+  },
+  "posCyan": {
+   "L": "#4E9E8C"
+  },
+  "grey7": {
+   "L": "#3F4E4B"
+  },
+  "errPale": {
+   "L": "#D9A79B"
+  },
+  "errBrown": {
+   "D": "#B4623F"
+  },
+  "warnPale": {
+   "L": "#E0D6B2"
+  },
+  "infoPale": {
+   "L": "#C3DCE6"
+  },
+  "info": {
+   "D": "#5F9EB5"
+  },
+  "posHi": {
+   "L": "#6E9C8C"
+  },
+  "inkDk": {
+   "L": "#E6EFEC"
+  },
+  "grey1": {
+   "L": "#A6B4B0"
+  },
+  "tyDk": {
+   "D": "#9CC3D5",
+   "L": "#9CC3D5"
+  }
+ },
+ "qingci": {
+  "D": {
+   "bg": "#2C3635",
+   "pane": "#313C3B",
+   "tab": "#313C3B",
+   "surf": "#354140",
+   "ink": "#E6EFEC",
+   "ink2": "#A9BCB7",
+   "ink3": "#7E918C",
+   "line": "#3D4A49",
+   "lineA": "#E6EFEC26",
+   "q4": "#445352",
+   "q5": "#3A4745",
+   "ctrl": "#CFDCD8",
+   "prim": "#7BA898",
+   "azure": "#8FBFAF",
+   "acc": "#8FC7B6",
+   "acc2": "#A9DCC9",
+   "sel": "#7BA89852",
+   "selm": "#7BA8984D",
+   "sels": "#7BA89826",
+   "selx": "#7BA89814",
+   "kw": "#8FC7B6",
+   "fn": "#BFE6D8",
+   "ty": "#9CC3D5",
+   "tyL": "#B4D2DE",
+   "st": "#C8BC97",
+   "nu": "#C79A7E",
+   "pl": "#C0A3B2",
+   "cm": "#7E918C",
+   "err": "#D98A7C",
+   "jade": "#8FBFAF",
+   "pale": "#C6D8D2"
+  },
+  "L": {
+   "bg": "#F0F5F3",
+   "pane": "#E8EFEC",
+   "tab": "#E1EAE7",
+   "surf": "#F5F9F7",
+   "ink": "#2C3635",
+   "ink2": "#5F736D",
+   "ink3": "#8A9C97",
+   "line": "#D6E1DD",
+   "lineA": "#2C36351F",
+   "q4": "#D2DEDA",
+   "q5": "#E1EAE7",
+   "ctrl": "#FBFDFC",
+   "prim": "#7BA898",
+   "azure": "#8FBFAF",
+   "acc": "#2A7263",
+   "acc2": "#1F6B58",
+   "sel": "#7BA89847",
+   "selm": "#7BA89840",
+   "sels": "#7BA8981F",
+   "selx": "#7BA8980F",
+   "kw": "#31705F",
+   "fn": "#1F8471",
+   "ty": "#23667B",
+   "tyL": "#2C6274",
+   "st": "#6B5F2E",
+   "nu": "#9A5B3D",
+   "pl": "#8A5570",
+   "cm": "#6E827D",
+   "err": "#B4453A",
+   "jade": "#5F9E8B",
+   "pale": "#4A5A56"
+  }
+ }
+}

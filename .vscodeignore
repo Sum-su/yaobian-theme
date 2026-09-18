@@ -1,0 +1,16 @@
+# vsce 打包时排除的东西：vsix 里只留「装上去要用的」。
+# 上游脚本、色板中间件、自检产物、预览图都不进包（它们在 GitHub 仓库里）。
+
+# 只保留：
+#   package.json / package.nls*.json / themes/** / README.md / LICENSE / NOTICE.md
+#   / CHANGELOG.md / icon.png
+**
+!package.json
+!package.nls.json
+!package.nls.zh-cn.json
+!themes/**
+!README.md
+!LICENSE
+!NOTICE.md
+!CHANGELOG.md
+!icon.png

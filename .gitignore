@@ -1,0 +1,13 @@
+# 打包产物（各版本都在 GitHub Releases / 商城上拿）
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# 自检/测试的中间件（每次跑 test_mode.py 都会重写）
+_test_settings.json
+_test_settings.json.yaobian-bak
+
+# mode.py 改设置前留的备份（含别人的密钥块，绝不入库）
+*.yaobian-bak
