@@ -31,10 +31,17 @@
 
 ### 2. 建 PAT（个人访问令牌）
 
-1. 打开 <https://dev.azure.com> → 右上角**用户设置**（小人图标）→ **Personal access tokens**
-   （直达：<https://dev.azure.com/_usersSettings/tokens>）
-   - 如果提示你还没有组织，先 **Create an organization**（名字随便，免费）——第一次用
-     Azure DevOps 的个人账号基本都会撞上这一步，它跟发布者 ID 没有任何关系，随便起。
+1. 打开 <https://dev.azure.com> → 用**建发布者的同一个微软账号**登录 → 选（或先建）一个组织
+   → 右上角**用户设置**（头像旁边那个齿轮／小人图标）→ **Personal access tokens**
+
+   ⚠️ **这里没有「跟组织无关」的直达链接**，别去找。PAT 页面挂在组织下面：
+   `https://dev.azure.com/<你的组织>/_usersSettings/tokens` 只有组织存在时才活。
+   （踩过：`dev.azure.com/_usersSettings/tokens` 和 `app.vssps.visualstudio.com/_usersSettings/tokens`
+   都长得像直达页，实际**都返回 404** `The resource cannot be found.`。官方文档给的第一步也是
+   「Sign in to your organization」，不是给链接。）
+
+   - 没有组织就先建（名字随便，免费）——第一次用 Azure DevOps 的个人账号基本都会撞上这一步，
+     它跟发布者 ID 没有任何关系。`https://go.microsoft.com/fwlink/?LinkId=307137` 会直接带你进建组织流程。
 2. **New Token**：
    - Name：`vsce`（随便）
    - **Organization：选 `All accessible organizations`** ← 这一项选错是最常见的 401 原因
@@ -47,6 +54,8 @@
 > 我们要的正是全局 PAT（Organization 选 All accessible 就是），所以它 **2026-12-01 起会失效**。
 > 官方给的替代方案（Entra ID + managed identity + service connection）是给 CI 流水线设计的，
 > 个人微软账号怎么发还没写清楚。先发出去没问题，到 11 月底我们再看当时的新说法。
+> 替代路径的入口是 `vsce publish --azure-credential`（我核对过 `publish.js`：这个分支走
+> `getAzureCredentialAccessToken()`，和 `--pat` / `--oidc` 并列，不是纸上方案）。
 
 ### 3. 存 token 并发布
 
