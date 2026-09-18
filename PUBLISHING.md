@@ -46,6 +46,7 @@ python publish.py --marketplace     # 发
 列表和日志里，这样不会。它也不回显 token。
 
 发完之后：
+
 - 商城页 <https://marketplace.visualstudio.com/items?itemName=tombliboo.yaobian-theme>
   （索引要几分钟）
 - 别人就能 `code --install-extension tombliboo.yaobian-theme` 了
@@ -79,9 +80,15 @@ python gen.py                      # 重新生成 72 套 + package.json
 python test_mode.py                # 自检（商城不管这个，自己把关）
 python falsify_checks.py           # 确认检查还是能红的
 npx @vscode/vsce package -o dist/yaobian-theme-<版本>.vsix
+python check_package.py            # ← 守门：包里的东西必须和清单声明的严格对上
 python publish.py                  # 两个市场一起发
 gh release create v<版本> dist/yaobian-theme-<版本>.vsix
 ```
+
+`check_package.py` 是补上的窟窿：**vsce 照目录打包，从不看 `contributes.themes`**，所以
+「清单声明 72 套、`themes/` 里躺着 74 个 json」这种事它一声不吭就发出去了。这个脚本两边对集合，
+多一个少一个都报，另外还查占位符展开、vsixmanifest 里的 Description、LICENSE 是不是裸 MIT。
+改动主题目录之后务必跑一次——它红了就是真有问题，别绕过去。
 
 注意 `python pack.py` 是**不装 node 时的退路**（手搓 zip），产物同名、也能装，
 但商城走的必须是 `vsce package` 那个（多带 icon/license/changelog 这些资源条目）。

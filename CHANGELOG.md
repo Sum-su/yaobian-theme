@@ -14,6 +14,10 @@ here.
   system is in charge.
 - `mode.py` switcher, its 25-check test suite and the falsification script.
 - English and Chinese documentation; full source credits in `NOTICE.md`.
+- `check_package.py`, which compares the packaged `.vsix` against `contributes.themes`. It
+  caught two files the first build was shipping that no manifest entry declared (the
+  hand-tuned Celadon baselines); they now live in `refs/`, and the package contains exactly
+  the 72 themes it advertises.
 
 ### 0.1.0
 

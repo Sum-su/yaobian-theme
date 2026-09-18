@@ -14,3 +14,10 @@
 !NOTICE.md
 !CHANGELOG.md
 !icon.png
+
+# 别在这儿写 `themes/某个文件.json` 想排掉它——**没用**。vsce 的语义不是 gitignore 的
+# 「后写的规则赢」，而是 negate 恒胜、跟顺序无关（package.js：
+#     kept = !ignore.some(匹配) || negate.some(匹配)
+# ）。`!themes/**` 一放行整个目录，目录里任何文件都无法再单独排除。
+# 所以手写基准 refs/qingci-*.json 干脆不放 themes/（见 build.py 里 OUT 的注释）；
+# 真需要排除时，把文件挪出被 `!` 放行的目录，别指望这里加一行。

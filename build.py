@@ -2,7 +2,7 @@
 """
 青瓷 (Qing-ci) VS Code 主题生成器 / 校验器
 ==========================================
-一份映射表 -> 深浅两套 themes/qingci-*.json
+一份映射表 -> 深浅两套 refs/qingci-*.json（手写基准；gen.py 拿它跟流水线版逐字节比）
 
 改色流程：
   1. 改下面的调色板 D（深）/ L（浅），或改 COLORS 里某一行的值
@@ -27,7 +27,11 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 VSCODE = r"C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code"
-OUT = os.path.join(HERE, "themes")
+# 手写基准的输出目录：**故意不放 themes/**。vsce 的 .vscodeignore 语义是「negate 恒胜、
+# 与顺序无关」（package.js: kept = !ignore.some(...) || negate.some(...)），所以一旦
+# 用 `!themes/**` 整目录放行，就没法再单独排掉目录里的某个文件——基准文件留在 themes/
+# 就会被原样打进 vsix（多带 2 个没人读的 40 KB）。放这儿，themes/ 里有且只有要发的那 72 套。
+OUT = os.path.join(HERE, "refs")
 
 # ============================================================
 # 调色板

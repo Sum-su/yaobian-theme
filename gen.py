@@ -271,9 +271,10 @@ def main():
     # （qing-ci 的 id 是 `qing-ci`，build.py 写的是 `qingci-*`，两条线各写各的文件，
     #   这里把两个文件对起来 —— 早先拿 _ref_ 快照跟 themes/qingci-* 比，比的是同一个
     #   文件、等于没比，两条线其实有 2 个键不一样。）
+    # 手写基准在 refs/（不在 themes/，否则会被打进 vsix；原因见 build.py 里 OUT 的注释）。
     for mode in ("dark", "light"):
         gen_p = os.path.join(OUT, f"qing-ci-{mode}.json")
-        hand_p = os.path.join(OUT, f"qingci-{mode}.json")
+        hand_p = os.path.join(HERE, "refs", f"qingci-{mode}.json")
         snap_p = os.path.join(HERE, f"_ref_qingci-{mode}.json")
         gen = io.open(gen_p, encoding="utf-8").read()
         hand = io.open(hand_p, encoding="utf-8").read()

@@ -167,6 +167,7 @@ python roles.py      # canonical palettes -> role vectors, with a contrast repor
 python gen.py        # role vectors -> 72 theme JSONs + package.json + preview.html
 python pack.py       # -> dist/yaobian-theme-0.3.0.vsix  (no node needed)
 npx @vscode/vsce package   # the same thing via vsce, which is what the Marketplace gets
+python check_package.py    # gate: what's in the vsix vs what package.json declares
 ```
 
 ## Self-checks
@@ -184,6 +185,7 @@ Every step therefore has a gate:
 | `check_pairs.py` | 6230 foreground/background pairs, scored against Celadon | 261 notably softer (mostly `prim`) |
 | `test_mode.py` | the switcher touches only those four keys and not one byte more; `[python]`-scoped keys untouched; inheritance; failure injection | 25 checks pass ✓ |
 | `falsify_checks.py` | reverts two improvements back to their old, buggy form and requires the suite to **go red** | 4 checks red as expected ✓ |
+| `check_package.py` | the **packaged** vsix against `contributes.themes`: no undeclared files, no missing ones, placeholders resolved, manifest description expanded, LICENSE bare MIT | 72 = 72 ✓ (it caught 2 undeclared files the first build was shipping) |
 | `sheet.py` | renders all 72 themes into one contact-sheet PNG for eyeballing | `sheet.png` (1856×1378) |
 | `preview.html` | the same, block by block in a browser | generated in the repo root |
 
