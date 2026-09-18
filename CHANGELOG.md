@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.2
+
+Metadata only — no theme file changed, so nothing looks different once installed.
+
+- `package.json` now has a `contributors` field naming **DeepSeek**, which wrote the palette
+  pipeline and the check scripts under the author's direction. The Marketplace renders this
+  field on the extension page, so the credit needed a version of its own to become visible.
+- New `CONTRIBUTORS.md` says who did what, and repeats the third-party provenance pointer.
+
 ## 0.3.1
 
 Icon only — no theme file changed, so nothing looks different once installed.

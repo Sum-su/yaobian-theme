@@ -2,13 +2,19 @@
   "name": "yaobian-theme",
   "displayName": "窑变",
   "description": "%description%",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "publisher": "tombliboo0226",
   "license": "MIT",
   "author": {
     "name": "Tombliboo",
     "url": "https://github.com/Sum-su"
   },
+  "contributors": [
+    {
+      "name": "DeepSeek",
+      "url": "https://www.deepseek.com/"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Sum-su/yaobian-theme.git"
