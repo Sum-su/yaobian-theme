@@ -19,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This project generates VS Code color themes from palettes published by other
-projects and community authors. Those sources are credited in NOTICE.md, and
-the MIT notices that their licenses require are reproduced there as well.
-Nothing in this LICENSE grants rights to third-party names or trademarks; the
-theme names are used descriptively to identify the palettes they come from.

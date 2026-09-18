@@ -79,7 +79,17 @@ Notes on the awkward ones:
   look depends on a background image injected by a Cherry Studio extension,
   which has no VS Code equivalent.
 
-## 4. Everything else in this repository
+## 4. What the MIT licence here covers
+
+The [LICENSE](LICENSE) in this repository covers this project's own work: the pipeline, the
+generated theme JSON, and the documentation. It does **not** grant rights to third-party names
+or trademarks — theme names such as Peppa, Gladiia and Claude are used descriptively, to say
+which palette a theme comes from, and remain the property of their owners. For the palettes
+themselves, see the credits above: where a source declared a licence (cherrycss, Dracula,
+Vitesse) that licence is reproduced in §6; where it declared none, the author is named and the
+theme will be re-credited or removed on request.
+
+## 5. Everything else in this repository
 
 Original work, MIT, © 2026 Tombliboo: the pipeline (`cherry.py`, `roles.py`,
 `keyexpr.py`, `gen.py`, `build.py`, `palette.py`), the role formulas (measured
@@ -91,11 +101,11 @@ The TextMate scopes and semantic-token selectors follow VS Code's own bundled
 `dark_vs` and `dark_plus` themes (MIT, © Microsoft Corporation) — the scopes are
 copied, the colours are not.
 
-## 5. Required licence texts
+## 6. Required licence texts
 
 ### cherrycss
 
-```
+```text
 MIT License
 
 Copyright (c) 2025 Caiyun Liu
@@ -121,7 +131,7 @@ SOFTWARE.
 
 ### Dracula Theme
 
-```
+```text
 MIT License
 
 Copyright (c) 2023 Dracula Theme
@@ -147,7 +157,7 @@ SOFTWARE.
 
 ### Vitesse Theme
 
-```
+```text
 MIT License
 
 Copyright (c) 2020 Primer
