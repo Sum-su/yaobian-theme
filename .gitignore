@@ -11,3 +11,9 @@ _test_settings.json.yaobian-bak
 
 # mode.py 改设置前留的备份（含别人的密钥块，绝不入库）
 *.yaobian-bak
+
+# 发布用的 token（publish.py 读它们；**绝不入库**）
+vsce-pat.txt
+ovsx-pat.txt
+.vsce-pat
+.ovsx-pat
