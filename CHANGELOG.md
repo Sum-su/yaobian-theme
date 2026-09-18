@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.1
+
+Icon only — no theme file changed, so nothing looks different once installed.
+
+- New `icon.png`: a celadon crackle-glaze bowl, replacing the drawn 「窑」 glyph. It is now
+  derived from a photograph by `icon.py` (centre-crop to square first, then a light unsharp,
+  because the crackle lines are hairline detail that plain LANCZOS would smear at 128 px).
+  The source photo is deliberately kept out of the repo; `icon.py --src` takes a path.
+
 ## 0.3.0
 
 First public release. The extension was previously installed locally as
