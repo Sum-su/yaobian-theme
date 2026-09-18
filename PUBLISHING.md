@@ -1,21 +1,42 @@
 # 发布手册（商城 / Open VSX）
 
-代码和包都准备好了，剩下的是**两个账号**——这一步必须你本人登录（微软账号和 GitHub 账号，
-我代替不了）。全程大约五分钟，之后每次发版只要 `python publish.py`。
+代码和包都准备好了，剩下的是**账号**——这一步必须你本人登录（微软账号和 GitHub 账号，
+我代替不了）。
 
-当前状态：发布者 **`tombliboo0226` 已经建好了**（<https://marketplace.visualstudio.com/publishers/tombliboo0226>
-可访问），`package.json` 里的 `publisher` 也是它，扩展 id 就是 `tombliboo0226.yaobian-theme`。
-**下一步只差第 2 节的 PAT**，拿到就 `python publish.py`。
-发布者 id 必须与 `package.json` 完全一致，否则 `vsce publish` 会报 `Invalid publisher`。
+当前状态：发布者 **`tombliboo0226`** 已建好，扩展 **`tombliboo0226.yaobian-theme@0.3.0`
+已于 2026-09-18 上架**。发布者 id 必须与 `package.json` 完全一致，否则会报 `Invalid publisher`。
 
 ---
 
 ## 一、VS Code 商城
 
-> **建发布者和建 PAT 必须用同一个微软账号。** 两个页面各登录一次，很容易顺手用了不同的号；
-> 不一致的表现是发布时 `Invalid publisher` 或者 401，而且不容易往这上面想。
+### 0. 发版：两条路，先看这条
+
+| | 手动拖 vsix | `vsce publish` |
+|---|---|---|
+| 需要 PAT | **不需要**（走浏览器登录会话） | 需要 |
+| 怎么发 | 发布者管理页 → **Upload extension** → 拖 vsix | `python publish.py --marketplace` |
+| 版本号重复 | 会拒绝（改版本号后重打包即可） | 同样拒绝 |
+| 脚本化 / CI | ✗ | ✓ |
+
+**v0.3.0 就是这么发出去的：手动拖的，没用 PAT。** 所以别把 PAT 当成发版的前置条件——
+它只是「一条命令发版」这个便利功能的前置条件。第一次发、或不常发，用 UI 就够了：
+
+```
+npx @vscode/vsce package --out dist/yaobian-theme-<版本>.vsix
+python check_package.py                       # 必跑，见第三节
+# 然后到 manage/publishers/tombliboo0226 的 Upload extension 页把 vsix 拖进去
+```
+
+> ⚠️ **上传成功后前端会滞后几分钟。** 判断「发成功没有」**要查 gallery API，不能看条目页**：
+> 上传完 1 分钟时，`items?itemName=...` 网页还是 **404**、`code --install-extension` 报
+> `not found`，但 gallery 查询接口**已经能查到**且 `flags = public`
+> （精确名 / 按发布者列举 / 全文搜 三种查法都能查到）。拿条目页 404 当失败会让你白折腾。
+> 核实方法见本节末尾。
 
 ### 1. 建发布者 ✅ 已经建好了（`tombliboo0226`），本节留作记录／备用
+
+> **发布者 ID 不能改。** 一个账号可以建多个发布者，所以填错了就另建一个，不用将就。
 
 1. 打开 <https://marketplace.visualstudio.com/manage/createpublisher?managePageRedirect=true>
    （或 <https://marketplace.visualstudio.com/manage> 登录后在左栏点 Create publisher）
@@ -23,13 +44,15 @@
 3. 填两个字段：
    - **Name**：显示名，随便填（比如 `Yaobian`）
    - **ID**：⚠️ **它会跟着 Name 自动填，一定要手动改成 `tombliboo0226`**（一字不差，全小写）。
-     ID 决定扩展的完整名字，**创建后不能改**；它必须和 `package.json` 里的 `publisher`
-     完全相同，否则 `vsce publish` 直接报 `Invalid publisher`。
+     ID 决定扩展的完整名字；它必须和 `package.json` 里的 `publisher` 完全相同。
      （不是假设：这个 ID 真的被自动填成过 `tomnliboo26`——`b` 变成 `n`，一眼扫过去看不出来。
      逐字核对，别只看长度。）
 4. 勾选同意 **Marketplace Publisher Agreement** → **Create**
 
-### 2. 建 PAT（个人访问令牌）
+### 2. 建 PAT（只有想用 `publish.py` 时才需要）
+
+> **建发布者和建 PAT 必须用同一个微软账号。** 两个页面各登录一次，很容易顺手用了不同的号；
+> 不一致的表现是发布时 `Invalid publisher` 或者 401，而且不容易往这上面想。
 
 1. 打开 <https://dev.azure.com> → 用**建发布者的同一个微软账号**登录 → 选（或先建）一个组织
    → 右上角**用户设置**（头像旁边那个齿轮／小人图标）→ **Personal access tokens**
@@ -76,8 +99,41 @@ python publish.py --marketplace     # 发
 发完之后：
 
 - 商城页 <https://marketplace.visualstudio.com/items?itemName=tombliboo0226.yaobian-theme>
-  （索引要几分钟）
+  （**索引要几分钟**，见下面的核实法）
 - 别人就能 `code --install-extension tombliboo0226.yaobian-theme` 了
+
+### 4. 怎么核实「真的发出去了」
+
+**别拿条目页的 404 当失败。** 刚发布时前端会滞后：网页 404、`code --install-extension` 报
+`not found`，但后台其实已经收下了。权威判据是 gallery 查询接口（`vsce publish` 打的就是它）：
+
+```bash
+python check_live.py        # 仓库里带的小脚本，直接打印商城上的实际状态
+```
+
+它打的是 `POST https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery`，
+按精确名查，打印版本、`flags`、以及 CDN 上的 Assets。
+
+**`flags` 里有两个标志，各管一件事，缺哪个就知道卡在哪：**
+
+| flags | 含义 | 此时能装吗 |
+|---|---|---|
+| `public` | 已公开发布（**上传后立刻就有**） | ✗ |
+| `validated` | 校验流水线跑完（**要等几分钟到十几分钟**） | ✓ |
+
+刚上传完是 `public` 光杆一个，这时候条目页 404、装不了，**都是正常的**。
+等它变成 `public, validated`（对照：`ms-python.python` 就是这个状态）才真正可安装。
+
+上传后立刻能看到的是：
+
+```
+完整名   = tombliboo0226.yaobian-theme
+版本     = 0.3.0
+flags    = public
+Assets   = Content.Details（README）/ Icons.Default / Icons.Small / VSIXPackage
+```
+
+Assets 四项齐 = README、图标、包都传上去了（这也是为什么商城必须用 `vsce package` 的产物）。
 
 ---
 
@@ -109,9 +165,17 @@ python test_mode.py                # 自检（商城不管这个，自己把关�
 python falsify_checks.py           # 确认检查还是能红的
 npx @vscode/vsce package -o dist/yaobian-theme-<版本>.vsix
 python check_package.py            # ← 守门：包里的东西必须和清单声明的严格对上
-python publish.py                  # 两个市场一起发
+
+# 2. 发（二选一，见第一节 §0 的对照表）
+python publish.py                  # 有 PAT：两个市场一起发
+#   或  手动：把 dist/ 里那个 vsix 拖到管理页的 Upload extension
+
+# 3. 核实 + 存档
+python check_live.py               # 等到 flags 出现 validated 才算真的可装
 gh release create v<版本> dist/yaobian-theme-<版本>.vsix
 ```
+
+**版本号不能重复**——商城和 Open VSX 都会拒绝已存在的版本，所以每次发版第 1 步必须先改版本号。
 
 `check_package.py` 是补上的窟窿：**vsce 照目录打包，从不看 `contributes.themes`**，所以
 「清单声明 72 套、`themes/` 里躺着 74 个 json」这种事它一声不吭就发出去了。这个脚本两边对集合，

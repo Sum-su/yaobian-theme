@@ -17,3 +17,7 @@ vsce-pat.txt
 ovsx-pat.txt
 .vsce-pat
 .ovsx-pat
+
+# 随手写的探针/临时脚本（下划线开头是约定）。
+# **注意别写成 `_*.json`**：`_ref_qingci-{dark,light}.json` 是 gen.py 要用的基准快照，是正经文件。
+_*.py
