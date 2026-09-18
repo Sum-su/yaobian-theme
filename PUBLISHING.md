@@ -3,8 +3,8 @@
 代码和包都准备好了，剩下的是**两个账号**——这一步必须你本人登录（微软账号和 GitHub 账号，
 我代替不了）。全程大约五分钟，之后每次发版只要 `python publish.py`。
 
-当前状态：`package.json` 里 `publisher` 是 **`tombliboo`**，扩展 id 就是
-`tombliboo.yaobian-theme`；商城上这个名字还没人注册（查过，404）。发布者 id 必须与
+当前状态：`package.json` 里 `publisher` 是 **`tombliboo26`**，扩展 id 就是
+`tombliboo26.yaobian-theme`；商城上这个名字还没人注册（查过，404）。发布者 id 必须与
 `package.json` 一致，否则 `vsce publish` 会报 `Invalid publisher`。
 
 ---
@@ -21,7 +21,9 @@
 2. 用**微软账号**登录（没有就当场注册一个，免费）
 3. 填两个字段：
    - **Name**：显示名，随便填（比如 `Yaobian`）
-   - **ID**：⚠️ **它会跟着 Name 自动填，一定要手动改成 `tombliboo`**（一字不差，全小写）
+   - **ID**：⚠️ **它会跟着 Name 自动填，一定要手动改成 `tombliboo26`**（一字不差，全小写）
+     （不是假设：这个 ID 真的被自动填成过 `tomnliboo26`——`b` 变成 `n`，一眼扫过去看不出来。
+     逐字核对，别只看长度。）
      —— ID 决定扩展的完整名字，**创建后不能改**；它必须和 `package.json` 里的 `publisher`
      完全相同，否则 `vsce publish` 直接报 `Invalid publisher`。如果 ID 被别人占了，
      回来告诉我，我改 `package.json` 重新打包（几分钟，不用将就）。
@@ -64,9 +66,9 @@ python publish.py --marketplace     # 发
 
 发完之后：
 
-- 商城页 <https://marketplace.visualstudio.com/items?itemName=tombliboo.yaobian-theme>
+- 商城页 <https://marketplace.visualstudio.com/items?itemName=tombliboo26.yaobian-theme>
   （索引要几分钟）
-- 别人就能 `code --install-extension tombliboo.yaobian-theme` 了
+- 别人就能 `code --install-extension tombliboo26.yaobian-theme` 了
 
 ---
 
@@ -74,7 +76,7 @@ python publish.py --marketplace     # 发
 
 1. 打开 <https://open-vsx.org> → 右上角 **Sign In** → 用 **GitHub** 登录
 2. 头像 → **Settings** → **Access Tokens** → **Generate New Token** → 复制
-3. 命名空间：同一个 Settings 页里 **Namespaces** → Create，填 `tombliboo`
+3. 命名空间：同一个 Settings 页里 **Namespaces** → Create，填 `tombliboo26`
    （首次发布时如果没建，`ovsx` 会提示你去建；Open VSX 还要求签一次 **Publisher Agreement**，
    页面上点一下就行）
 4. 存 token 并发布：

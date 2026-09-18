@@ -2,7 +2,7 @@
 
 > English: [README.md](README.md)
 
-一个 VS Code 扩展（`tombliboo.yaobian-theme`），把 [cherrycss.com](https://cherrycss.com)
+一个 VS Code 扩展（`tombliboo26.yaobian-theme`），把 [cherrycss.com](https://cherrycss.com)
 主题画廊的配色铺成 VS Code 配色主题，含本机一直在用的**青瓷**（它就是画廊里的一款）。
 
 名字取「窑变」——一窑烧出万色，同一套釉料配方在不同火候下变成 36 种颜色，正好像这条流水线。
@@ -23,10 +23,10 @@
 
 ## 装
 
-在 VS Code 里搜 **窑变**（扩展 id `tombliboo.yaobian-theme`），或者：
+在 VS Code 里搜 **窑变**（扩展 id `tombliboo26.yaobian-theme`），或者：
 
 ```bash
-code --install-extension tombliboo.yaobian-theme      # 从商城装
+code --install-extension tombliboo26.yaobian-theme      # 从商城装
 code --install-extension dist/yaobian-theme-0.3.0.vsix --force   # 装本地打的包
 ```
 
@@ -210,7 +210,7 @@ python build.py && cp themes/qingci-dark.json _ref_qingci-dark.json \
 不想重新打包的话，也能直接改装好的 JSON：
 
 ```text
-%USERPROFILE%\.vscode\extensions\tombliboo.yaobian-theme-0.3.0\themes\qing-ci-dark.json
+%USERPROFILE%\.vscode\extensions\tombliboo26.yaobian-theme-0.3.0\themes\qing-ci-dark.json
 ```
 
 这一种**要**重载窗口：主题文件只在该主题被加载时读一次，之后没有文件监听
@@ -228,7 +228,7 @@ python build.py && cp themes/qingci-dark.json _ref_qingci-dark.json \
 ## 回滚
 
 ```bash
-code --uninstall-extension tombliboo.yaobian-theme
+code --uninstall-extension tombliboo26.yaobian-theme
 ```
 
 卸的时候如果 VS Code 正开着、而且正用着窑变的主题，`workbench.colorTheme` 这个键会被

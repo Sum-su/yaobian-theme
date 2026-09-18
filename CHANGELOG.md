@@ -3,7 +3,7 @@
 ## 0.3.0
 
 First public release. The extension was previously installed locally as
-`tombliboo.qingci-theme`; it is renamed to **窑变** (`tombliboo.yaobian-theme`) and published
+`tombliboo.qingci-theme`; it is renamed to **窑变** (`tombliboo26.yaobian-theme`) and published
 here.
 
 - 36 theme families × dark/light = **72 colour themes** (567 workbench keys, 68 TextMate rules,
