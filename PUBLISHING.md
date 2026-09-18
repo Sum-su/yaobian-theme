@@ -3,9 +3,10 @@
 代码和包都准备好了，剩下的是**两个账号**——这一步必须你本人登录（微软账号和 GitHub 账号，
 我代替不了）。全程大约五分钟，之后每次发版只要 `python publish.py`。
 
-当前状态：`package.json` 里 `publisher` 是 **`tombliboo26`**，扩展 id 就是
-`tombliboo26.yaobian-theme`；商城上这个名字还没人注册（查过，404）。发布者 id 必须与
-`package.json` 一致，否则 `vsce publish` 会报 `Invalid publisher`。
+当前状态：发布者 **`tombliboo0226` 已经建好了**（<https://marketplace.visualstudio.com/publishers/tombliboo0226>
+可访问），`package.json` 里的 `publisher` 也是它，扩展 id 就是 `tombliboo0226.yaobian-theme`。
+**下一步只差第 2 节的 PAT**，拿到就 `python publish.py`。
+发布者 id 必须与 `package.json` 完全一致，否则 `vsce publish` 会报 `Invalid publisher`。
 
 ---
 
@@ -14,19 +15,18 @@
 > **建发布者和建 PAT 必须用同一个微软账号。** 两个页面各登录一次，很容易顺手用了不同的号；
 > 不一致的表现是发布时 `Invalid publisher` 或者 401，而且不容易往这上面想。
 
-### 1. 建发布者
+### 1. 建发布者 ✅ 已经建好了（`tombliboo0226`），本节留作记录／备用
 
 1. 打开 <https://marketplace.visualstudio.com/manage/createpublisher?managePageRedirect=true>
    （或 <https://marketplace.visualstudio.com/manage> 登录后在左栏点 Create publisher）
 2. 用**微软账号**登录（没有就当场注册一个，免费）
 3. 填两个字段：
    - **Name**：显示名，随便填（比如 `Yaobian`）
-   - **ID**：⚠️ **它会跟着 Name 自动填，一定要手动改成 `tombliboo26`**（一字不差，全小写）
+   - **ID**：⚠️ **它会跟着 Name 自动填，一定要手动改成 `tombliboo0226`**（一字不差，全小写）。
+     ID 决定扩展的完整名字，**创建后不能改**；它必须和 `package.json` 里的 `publisher`
+     完全相同，否则 `vsce publish` 直接报 `Invalid publisher`。
      （不是假设：这个 ID 真的被自动填成过 `tomnliboo26`——`b` 变成 `n`，一眼扫过去看不出来。
      逐字核对，别只看长度。）
-     —— ID 决定扩展的完整名字，**创建后不能改**；它必须和 `package.json` 里的 `publisher`
-     完全相同，否则 `vsce publish` 直接报 `Invalid publisher`。如果 ID 被别人占了，
-     回来告诉我，我改 `package.json` 重新打包（几分钟，不用将就）。
 4. 勾选同意 **Marketplace Publisher Agreement** → **Create**
 
 ### 2. 建 PAT（个人访问令牌）
@@ -66,9 +66,9 @@ python publish.py --marketplace     # 发
 
 发完之后：
 
-- 商城页 <https://marketplace.visualstudio.com/items?itemName=tombliboo26.yaobian-theme>
+- 商城页 <https://marketplace.visualstudio.com/items?itemName=tombliboo0226.yaobian-theme>
   （索引要几分钟）
-- 别人就能 `code --install-extension tombliboo26.yaobian-theme` 了
+- 别人就能 `code --install-extension tombliboo0226.yaobian-theme` 了
 
 ---
 
@@ -76,7 +76,7 @@ python publish.py --marketplace     # 发
 
 1. 打开 <https://open-vsx.org> → 右上角 **Sign In** → 用 **GitHub** 登录
 2. 头像 → **Settings** → **Access Tokens** → **Generate New Token** → 复制
-3. 命名空间：同一个 Settings 页里 **Namespaces** → Create，填 `tombliboo26`
+3. 命名空间：同一个 Settings 页里 **Namespaces** → Create，填 `tombliboo0226`
    （首次发布时如果没建，`ovsx` 会提示你去建；Open VSX 还要求签一次 **Publisher Agreement**，
    页面上点一下就行）
 4. 存 token 并发布：

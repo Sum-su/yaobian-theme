@@ -25,7 +25,7 @@ does.
 Search **窑变** in the Extensions view, or:
 
 ```bash
-code --install-extension tombliboo26.yaobian-theme              # from the Marketplace
+code --install-extension tombliboo0226.yaobian-theme              # from the Marketplace
 code --install-extension yaobian-theme-0.3.0.vsix --force      # from a local .vsix
 ```
 
@@ -231,7 +231,7 @@ To try a change without repackaging, edit the installed JSON directly — this o
 a window reload (`watch: false`: theme files are read once and not watched):
 
 ```text
-%USERPROFILE%\.vscode\extensions\tombliboo26.yaobian-theme-0.3.0\themes\qing-ci-dark.json
+%USERPROFILE%\.vscode\extensions\tombliboo0226.yaobian-theme-0.3.0\themes\qing-ci-dark.json
 ```
 
 ## Sources and licence
@@ -249,7 +249,7 @@ a window reload (`watch: false`: theme files are read once and not watched):
 ## Rollback
 
 ```bash
-code --uninstall-extension tombliboo26.yaobian-theme
+code --uninstall-extension tombliboo0226.yaobian-theme
 ```
 
 Then set `workbench.colorTheme` back to whatever you used before (see the uninstall warning
